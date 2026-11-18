@@ -5,7 +5,7 @@
 </head>
 <body>
 
- <form action="\Web_Page\s1.php"  method="GET">
+ <form action="\Web Programming(Final Term-PHP)\form2.php"  method="GET">
 
     <label for="name"> Name: </label>
     <input type="text" id="name" placeholder="Enter your name" name="name" required>
@@ -22,8 +22,8 @@
     
     <br><br>
 
-   <label for="number"> Phone Number: </label>
-   <input type="tel" id="number" placeholder="Enter your phone number" name="number" required>
+   <label for="number"> Contact Number: </label>
+   <input type="tel" id="number" placeholder="Enter your contact number" name="number" required>
    
    <br><br>
 
@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Phone Number: " . htmlspecialchars($_GET['number']) . "<br>";
 }
 ?>
-<a href="\Web_Page\s1.php"> Click Here For Second Page </a>
+<a href="\Web Programming(Final Term-PHP)\form2.php"> Click Here For Second Page </a>
 
 </body>
 </html>
